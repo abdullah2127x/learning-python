@@ -1,6 +1,4 @@
-import requests as rq
-
-a = requests.get("https://jsonplaceholder.typicode.com/todos")
+# a = requests.get("https://jsonplaceholder.typicode.com/todos")
 
 # Fetching data from: https://jsonplaceholder.typicode.com/todos/1
 
@@ -10,9 +8,9 @@ a = requests.get("https://jsonplaceholder.typicode.com/todos")
 # User ID: 1
 
 # Complete JSON response:
-{
-  "userId": 1,
-  "id": 1,
-  "title": "delectus aut autem",
-  "completed": false
-}
+# {
+#   "userId": 1,
+#   "id": 1,c
+#   "title": "delectus aut autem",
+#   "completed": False
+# }

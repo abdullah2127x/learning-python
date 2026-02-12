@@ -1,2 +1,6 @@
+obj1 = {"name": "Abdullah"}
+obj2 = {"name": "Abdullah"}
 
-print("Hello")
+a = obj1 == obj2
+
+print(a)

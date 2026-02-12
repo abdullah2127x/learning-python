@@ -6,7 +6,22 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
+[tool.pyright]
+typeCheckingMode = "standard"  # Change to "strict" for more checking
+pythonVersion = "3.13"
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+    "F",   # pyflakes — unused imports, undefined names
+    "I",   # isort — import sorting
+]
+
 [dependency-groups]
 dev = [
+    "pyright>=1.1.408",
     "ruff>=0.15.0",
 ]

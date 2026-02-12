@@ -1,9 +1,10 @@
 # First, install required packages using:
 # pip install requests
 
-import requests
 import json
 from datetime import datetime
+
+import requests
 
 # 1. LISTS - ordered, mutable collection
 # List operations and methods
